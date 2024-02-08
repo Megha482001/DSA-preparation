@@ -2,8 +2,8 @@ package com.Recursion;
 
 public class BinarySearch {
     public static void main(String[] args) {
-    int[] arr = {1, 2, 3, 4, 55, 66, 78};
-    int target =78;
+    int[] arr = {9, 90, 70, 80, 96, 50};
+    int target =90;
         System.out.println(search(arr , target, 0, arr.length-1));
     }
     static int search(int[] arr, int target, int s, int e) {
